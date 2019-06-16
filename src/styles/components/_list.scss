@@ -1,0 +1,41 @@
+.list {
+    display: flex;
+    margin: 0 auto;
+    padding: $s-size 0 $s-size $m-size;
+}
+.list:hover {
+    .list__delete{
+        margin-right: $s-size;
+        opacity: 1;
+        width: $xl-size;
+    }
+}
+.list:nth-child(2n) {
+    background: $light-yellow;
+}
+
+.list__content {
+    list-style: none;
+    font-size: $m-size;
+}
+
+.list__content--number{
+    color: $orange;
+    font-size: $l-size;
+    font-weight: bold;
+    margin-right: $s-size;
+}
+
+.list__delete {
+    background: red;
+    color: white;
+    margin-right: 0;
+    opacity: 0;
+    transition:.2s linear;
+    text-align: center;
+    width: 0;
+}
+.list__delete--trash {
+    height: $l-size;
+    width: $xl-size;
+}

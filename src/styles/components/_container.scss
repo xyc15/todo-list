@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+    max-width: 30rem;
+    margin: 10rem auto;
+    margin-bottom: $l-size;
+    background: $purple;
+}
+
+@media(min-width: $desktop-breakpoint) {
+    .container{
+        max-width: 60rem;
+    }
+}

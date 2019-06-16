@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;//padding and border are included in the width and height
+}
+
+html {
+    font-size: 62.5%;//16*62.5% = 10pt, now we're working on rem based on 10px
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $m-size;
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/13/40/todo-list-seamless-pattern-universal-background-vector-7561340.jpg")
+    // background-image: url("https://cdn.wallpapersafari.com/41/24/alTIQo.jpg");
+    // background-image: url("http://www.raizlabs.com/gregshead/wp-content/uploads/sites/8/2008/03/getthingsdonewallpaper2.jpg");
+}
+button {
+    cursor: pointer;
+}
+button:disabled {
+    cursor: default;
+}

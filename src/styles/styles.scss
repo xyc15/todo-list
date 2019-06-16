@@ -1,0 +1,11 @@
+// note: we import partial -- leave off the extension and underscore
+@import './base/settings';
+@import './base/base';
+@import './components/container';
+@import './components/header';
+@import './components/button';
+@import './components/add-todo';
+@import './components/widget';
+@import './components/list';
+@import './components/modal';
+@import './components/printer';

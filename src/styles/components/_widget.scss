@@ -1,0 +1,10 @@
+.widget {
+    background: white;
+    border: 2px solid darken($purple, 10%);
+}
+.widget__message {
+
+    color: $purple;
+    margin: $s-size auto;
+    text-align: center;
+}

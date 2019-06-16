@@ -1,0 +1,20 @@
+.header {
+    background: $light-yellow;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    font-size: $l-size;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: $m-size $l-size;
+}
+
+.header__title {
+    background: $light-yellow;
+    border-radius: 50%;
+    color: $blue;
+    height: 8rem;
+    margin: 0 auto;
+    text-align: center;
+    width: 30rem;
+}

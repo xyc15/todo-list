@@ -1,0 +1,23 @@
+.add-todo {
+    border: 2px solid $purple;
+    // display: flex;
+    // flex-direction: column;
+}
+.todo {
+    display: flex;
+    flex-direction: column;
+}
+.todo__content {
+    
+    flex-grow: 1; //width: 100%;
+    height: $xxl-size;
+    outline: none;
+    
+}
+
+@media(min-width: $desktop-breakpoint){
+    .todo {
+        display: flex;
+        flex-direction: row;
+    }
+}
